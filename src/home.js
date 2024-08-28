@@ -22,11 +22,12 @@ export function createHome(container) {
 
     let toAction = document.createElement("div");
     toAction.setAttribute("class", "toAction");
-    p.textContent = "Ready to experience the best of modern dining? Reserve your table today and join us for an unforgettable culinary adventure."
+    let p2 = document.createElement("p")
+    p2.textContent = "Ready to experience the best of modern dining? Reserve your table today and join us for an unforgettable culinary adventure."
     let btn = document.createElement("button");
     btn.setAttribute("class", "action");    
     btn.textContent = "Call to Action";
-    toAction.appendChild(p);
+    toAction.appendChild(p2);
     toAction.appendChild(btn);
 
     container.appendChild(welcome);
