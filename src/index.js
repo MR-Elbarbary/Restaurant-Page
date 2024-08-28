@@ -1,6 +1,7 @@
 import "./style.css";
 import { createHome } from "./home";
 import { createAbout } from "./about";
+import { createMenu } from "./menu";
 
 document.addEventListener("DOMContentLoaded", () =>{
     let container = document.getElementById("content");
@@ -14,6 +15,11 @@ document.addEventListener("DOMContentLoaded", () =>{
     aboutBtn.addEventListener("click", () =>{
         clean(container);
         createAbout(container);
+    });
+    let menuBtn = document.getElementById("menu");
+    menuBtn.addEventListener("click", () =>{
+        clean(container);
+        createMenu(container);
     });
 });
 

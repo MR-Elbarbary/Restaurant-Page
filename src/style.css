@@ -97,6 +97,18 @@ p{
     height: auto;
 }
 
+.plate{
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.card{
+    border-bottom: 10px var(--cs3) solid;
+    border-radius: 10px;
+    
+}
+
 .action{
     background-color: var(--cs3);
 }
